@@ -13,10 +13,9 @@ oracle/build/
 oracle_vars.md
 
 # ── Generic env files ─────────────────────────────────────────────────────────
-.env
-.env.*
 !.env.example
 
+temp_auto_push.bat
 # ── Frontend dependencies & build output ──────────────────────────────────────
 node_modules/
 dist/
@@ -26,7 +25,6 @@ out/
 # ── OS / editor clutter ───────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -37,3 +35,6 @@ ISSUES.md
 scripts/.deploy-testnet-state
 /target_local
 oracle/target_local
+.gitignore
+branch_structure.json
+config.bat
